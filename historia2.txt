@@ -1,0 +1,5 @@
+1: Acorda em uma fabrica abandonada, nao se lembra de nada que aconteceu, encontra um bilhete com a mensagem "estou com sua filha,
+ let's play the game, escolha o caminho correto para encontra -la.
+	opções: a) subir escada à direita
+		b) entrar na porta a direita
+		c) descer a escada a esquerda
