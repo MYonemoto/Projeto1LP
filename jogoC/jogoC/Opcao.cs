@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace jogoC
 {
-    class Sala
+    class Opcao
     {
         string nome;
-        string descricao;
+        Sala destino;
 
         public string Nome
         {
@@ -17,10 +17,15 @@ namespace jogoC
             set { nome = value; }
         }
 
-        public Sala(string nome, string descricao)
+        public Sala Destino
         {
+            get { return destino; }
+            set { destino = value; }
+        }
+
+        public Opcao(string nome, Sala destino) {
             this.nome = nome;
-            this.descricao = descricao;
+            this.destino = destino;
         }
 
     }

@@ -1,59 +1,14 @@
-PROJETO 1 - LINGUAGEM DE PROGRAMAÇÃO
+sala 1: salão principal
+O salão principal é mais longo do que largo. Há casacos pendurados ao longo da parede.
 
-1. Narrativa
-	O homem acorda em uma cidade abandonada. Não se lembra de nada. Olha ao seu redor e encontra um bilhete ao seu lado(OPÇOES:ler bilhete, ignorar bilhete). 
-OPÇÃO LER: Mensagem: "Achei vocês desacordados na estrada, resolvi fazer uma brincadeira. Tente encontrar sua filha, caso não encontre em 3 pistas, ela 
-morre. Boa sorte". Mesmo sem se lembrar de nada, resolveu entrar na "brincadeira" do possível sequestrador.
-OPÇÃO  IGNORAR: morre de alguma forma.
+sala 2: cozinha
+A cozinha é quadrada. Uma geladeira e um microondas ficam lado a lado. Você pode vê uma panela suja sobre a pia.
 
-	Mais adiante, o homem encontra outro bilhete(OPÇÕES: ler bilhete, ignorar bilhete).
-OPÇÃO LER: Mensagem: "1ª pista: sua filha está em uma fábrica, para chegar até lá, vá até o outro lado da cidade."
-OPÇÃO IGNORAR: morre de alguma forma.
-
-	Logo depois, o homem encontra três objetos: um bastão, uma espada, uma boneca. (OPÇÕES:pegar bastao, pegar espada, pegar boneca).
-OPÇÃO BASTÃO: bastão pego.
-OPÇÃO ESPADA: espada pego.
-OPÇÃO BONECA: boneca pego. (caso pegue a boneca, morrerá mais pra frente).
-
-	Escutou barulhos e foi averiguar. Deu de cara com um lobo faminto. (OPÇÕES:ir pra cima, fugir, esconder).
-OPÇÃO IR PRA CIMA: única forma de dar certo é matando o lobo (caso esteja com a boneca, morrerá. Após o uso da ferramenta, ela quebra).
-OPÇÃO FUGIR: morre (lobo é mais rápido).
-OPÇAO ESCONDER: morre (lobo fareja e acha com facilidade).
-
-	Após a dura batalha, seguiu em frente. Deparou-se com mais um bilhete (OPÇÕES: ler bilhete, ignorar bilhete).
-OPÇÃO LER: Mensagem: "2ª pista: Se você chegou até aqui, está no caminho certo. Logo em frente encontrará vários caminhos. Escolha sabiamente um que leve até a
-fábrica".
-OPÇÃO IGNORAR: morre de alguma forma.
-
-
-	Continuou a caminhar. Enfim encontrou 3 caminhos. (OPÇÕES: caminho florido, caminho obscuro, caminho vazio).
-OPÇÃO FLORIDO: morre de alguma forma.
-OPÇÃO OBSCURO: morre de alguma forma.
-OPÇÃO VAZIO: caminho certo para a fábrica.
-
-	Caminhando pela estrada vazia, finalmente chegou na fábrica, e logo encontra outro bilhete (OPÇÕES: ler bilhete, ignorar bilhete).
-OPÇÃO LER: Mensagem: "3ª pista: Parabéns por ter chego até aqui. Antes de continuar, pegue a pistola ao seu lado e me enfrente. Não tenho mais motivos para continuar
-vivo nessa maldita cidade. Sua filha está a salvo em algum lugar da fábrica. Boa sorte".
-OPÇÃO IGNORAR: morre de alguma forma.
-
-	O homem está nervoso, sem saber o que fazer (OPÇÕES: pegar pistola, ignorar pistola).
-OPÇÃO PEGAR: pistola pega (apenas uma bala).
-OPÇÃO IGNORAR: morre de alguma forma.
-
-	Após ter pego a pistola, surge em sua frente o tal homem misterioso. (OPÇÕES: atirar, se matar, fugir).
-OPÇAO ATIRAR: matar homem misterioso.
-OPÇÃO SE MATAR: morre (a vá).
-OPÇÃO FUGIR: morto pelo homem.
-
-	O homem começa a procurar sua filha pela fábrica (OPÇÕES:sala 1, sala 2, sala 3).
-OPÇÃO SALA 1: outra sala com mais 2 portas. 
-OPÇÃO SALA 2: morre (sala cheio de cobras).
-OPÇÃO SALA 3: filha encontrada.
-
-	Caso vá na sala 1 (OPÇÕES: porta 1, porta 2).
-OPÇÃO PORTA 1: volta ao início da fábrica.
-OPÇÃO PORTA 2: morre de alguma forma.
-
-	Assim que ve sua filha, o homem lembra-se de tudo, inclusive do acidente. Então, ele vai até seu carro e busca ajuda. FIM.
-
-	 
+sala 3: sala de jantar
+sala 4: quarto 1
+sala 5: salão de festa
+sala 6: quarto 2
+sala 7: lavanderia
+sala 8: dispensa
+sala 9: salão de jogos
+sala 10: sala de tv
