@@ -8,19 +8,37 @@ namespace jogoC
 {
     class Sala
     {
-        string nome;
-        string descricao;
+        String nome;
+        int id;
+        String descricao;
+        String opcoes;
 
-        public string Nome
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
+        public String Nome
         {
             get { return nome; }
             set { nome = value; }
         }
+        public String Descricao
+        {
+            get { return descricao; }
+            set { descricao = value; }
+        }
+        public String Opcoes
+        {
+            get { return opcoes; }
+            set { opcoes = value; }
+        }
 
-        public Sala(string nome, string descricao)
+        public Sala(String nome, String descricao, String opcoes)
         {
             this.nome = nome;
             this.descricao = descricao;
+            this.opcoes = opcoes;
         }
 
     }

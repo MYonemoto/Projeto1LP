@@ -8,10 +8,14 @@ namespace jogoC
 {
     class Jogo
     {
+        String nome;
+        String descricaoInicial;
         Dictionary<Sala, List<Opcao>> map;
 
-        public Jogo()
+        public Jogo(string nome, string descricao)
         {
+            this.nome = nome;
+            this.descricaoInicial = descricao;
             this.map =  new Dictionary<Sala, List<Opcao>>();
         }
 
@@ -21,7 +25,18 @@ namespace jogoC
             get { return map; }
             set { map = value; }
         }
+        public string Nome
+        {
+            get { return nome; }
+            set { nome = value; }
 
+        }
+         
+        public string DescricaoInicial
+        {
+            get { return descricaoInicial; }
+            set { descricaoInicial = value; }
+        }
 
 
     }
