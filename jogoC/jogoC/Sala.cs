@@ -34,11 +34,17 @@ namespace jogoC
             set { opcoes = value; }
         }
 
+
         public Sala(String nome, String descricao, String opcoes)
         {
             this.nome = nome;
             this.descricao = descricao;
             this.opcoes = opcoes;
+        }
+
+        public Sala(int id)
+        {
+            this.id = id;
         }
 
     }

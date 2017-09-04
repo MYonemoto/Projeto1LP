@@ -19,6 +19,32 @@ namespace jogoC
             this.map =  new Dictionary<Sala, List<Opcao>>();
         }
 
+        public void Preenche(Jogo jogo, Sala sala)
+        {
+            foreach (KeyValuePair<Sala, List<Opcao>> par in jogo.map)
+            {
+                if (sala.Id.Equals(par.Key.Id))
+                {
+                    par.Key.Nome = sala.Nome;
+                    par.Key.Descricao = sala.Descricao;
+                    par.Key.Opcoes = sala.Opcoes;
+                }
+            }
+        }
+
+        public void Imprime(Jogo jogo)
+        {
+            foreach (KeyValuePair<Sala, List<Opcao>> par in jogo.map)
+            {
+                Console.WriteLine(par.Key.Id + ": " + par.Key.Nome+ "\n " + par.Key.Descricao+"\n"+par.Key.Opcoes+"\n");
+            }
+        }
+
+        public void InsereSala(Jogo jogo, Sala sala)
+        {
+            List<Opcao> opcoes = new List<Opcao>();
+            jogo.map.Add(sala, opcoes);
+        }
 
         public Dictionary<Sala, List<Opcao>> Map
         {

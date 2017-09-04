@@ -13,7 +13,8 @@ namespace jogoC
             Jogo jogo = Read.Ler();
 
             Console.WriteLine(jogo.Nome);
-            Console.WriteLine(jogo.DescricaoInicial);
+            Console.WriteLine(jogo.DescricaoInicial+"\n");
+            jogo.Imprime(jogo);
             
             
 
