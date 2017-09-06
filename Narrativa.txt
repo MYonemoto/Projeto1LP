@@ -1,6 +1,6 @@
 THE DARK MANSION
-Voce esta em uma mansao. Para sair vivo, basta encontrar a saída da mansao. A luz te guiara.
-10
+Voce esta em uma mansao. Um cheiro estranho paira pelo ar, parece ser venenoso. Para sair vivo, basta encontrar a saida da mansao. Voce tem 8 chances para sair. A luz te guiara.
+12
 1:salao principal
 O salao principal e mais longo do que largo. Ha casacos pendurados ao longo da parede. Todas as cortinas das janelas estao bem fechadas. Nao se pode enxergar nada alem das portas.
 Voce pode ir para:  direita, esquerda, frente, atras.
@@ -41,3 +41,11 @@ frente 10;atras 8;direita 4;esquerda 6
 Essa sala e ate difícil de ficar. O que faltou de luz para o resto da mansao, compensa na sala de estar. 
 Voce pode ir para: direita ou esquerda.
 direita 1;esquerda 11
+11:saida
+Parabens, voce conseguiu escapar com vida!
+recomecar, sair.
+recomecar 1;sair 11
+12:morreu
+Voce nao conseguiu escapar a tempo.
+recomecar, sair.
+recomecar 1;sair 11

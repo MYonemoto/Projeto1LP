@@ -13,7 +13,7 @@ namespace jogoC
         public static Jogo Ler()
         {
             
-            String[] lines = System.IO.File.ReadAllLines(@"C:\Users\Geovani\source\repos\Projeto1LP\Narrativa.txt");
+            String[] lines = System.IO.File.ReadAllLines(@"C:\Users\Mateu\source\repos\Projeto1LP\Narrativa.txt");
             int indice = 0;
             string nome = lines[indice++];
             string desc = lines[indice++];
@@ -21,8 +21,8 @@ namespace jogoC
             
 
             string tama = lines[indice++];
-            int tam = Convert.ToInt32(tama);
-            for(int i = 1; i < tam+1; i++)
+            jogo.Tam = Convert.ToInt32(tama);
+            for(int i = 1; i < jogo.Tam+1; i++)
             {
                 Sala sala = new Sala(i);
                 jogo.InsereSala(jogo, sala);

@@ -10,6 +10,7 @@ namespace jogoC
     {
         String nome;
         String descricaoInicial;
+        int tam;
         Dictionary<Sala, List<Opcao>> map;
 
         public Jogo(string nome, string descricao)
@@ -95,7 +96,13 @@ namespace jogoC
             set { nome = value; }
 
         }
-         
+
+        public int Tam
+        {
+            get { return tam; }
+            set { tam = value; }
+
+        }
         public string DescricaoInicial
         {
             get { return descricaoInicial; }
