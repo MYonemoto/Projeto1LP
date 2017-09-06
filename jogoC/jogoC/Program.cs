@@ -13,25 +13,30 @@ namespace jogoC
             Jogo jogo = Read.Ler();
 
             Console.WriteLine(jogo.Nome);
-            Console.WriteLine(jogo.DescricaoInicial+"\n");
-            jogo.Imprime(jogo);
-            
-            
+            Console.WriteLine(jogo.DescricaoInicial);
+            Sala sala = Jogo.GetKey(jogo, 1);
+            sala.ImprimirSala();
 
 
-            // opc.Add(op);
-            //map.Add(sala1, op);
-            //foreach(KeyValuePair<Sala, Opcao> par in map) {
-            //Sala sal = par.Key;
-            //Opcao opca = par.Value;
-            //Console.Write("sala: " + sal.Nome);
-            //Console.Write("opcao: " + opca.Nome);
-            //Console.Write("destino: " + opca.Destino.Nome);
-            //}
-            
-            
+            while (!sala.Id.Equals(11)){
+                
+                string comando = Console.ReadLine();
 
-
+                Boolean b = false;
+                foreach (Opcao op in jogo.Map[sala])
+                {
+                    if (op.Nome.Equals(comando))
+                    {
+                        sala = op.Destino;
+                        b = true;
+                        sala.ImprimirSala();
+                    }
+                }
+                if (!b)
+                {
+                    Console.WriteLine("comando invalido");
+                }
+            }
             Console.ReadLine();
         }
     }

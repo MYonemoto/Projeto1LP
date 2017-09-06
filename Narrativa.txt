@@ -1,43 +1,43 @@
 THE DARK MANSION
-Você está em uma mansão. Para sair vivo, basta encontrar a saída da mansão. A luz te guiará.
+Voce esta em uma mansao. Para sair vivo, basta encontrar a saída da mansao. A luz te guiara.
 10
-1:salão principal
-O salão principal é mais longo do que largo. Há casacos pendurados ao longo da parede. Todas as cortinas das janelas estão bem fechadas. Não se pode enxergar nada além das portas.
-Você pode ir para direita, esquerda, para frente ou atrás.
+1:salao principal
+O salao principal e mais longo do que largo. Ha casacos pendurados ao longo da parede. Todas as cortinas das janelas estao bem fechadas. Nao se pode enxergar nada alem das portas.
+Voce pode ir para:  direita, esquerda, frente, atras.
 frente 3;atras 7;direita 4;esquerda 2
 2:cozinha
-A cozinha é quadrada. Uma geladeira e um microondas ficam lado a lado. Você pode vê uma panela suja sobre a pia. A escuridão ainda é grande, cuidado onde pisa.
-Você pode ir para esquerda, para frente ou para trás.
+A cozinha e quadrada. Uma geladeira e um microondas ficam lado a lado. Voce pode ve uma panela suja sobre a pia. A escuridao ainda e grande, cuidado onde pisa.
+Voce pode ir para:  esquerda, frente, atras.
 frente 6;atras 3;esquerda 4
 3:sala de jantar
-A sala de jantar é bem grande. Parece que houve um jantar há luz de velas não muito tempo atrás. Há pratos sobre a mesa e cadeiras caídas.
-Você pode ir para direita, esquerda, para frente ou para trás.
+A sala de jantar e bem grande. Parece que houve um jantar ha luz de velas nao muito tempo atras. Ha pratos sobre a mesa e cadeiras caídas.
+Voce pode ir para:  direita, esquerda, frente, atras.
 frente 5;atras 1;direita 6;esquerda 2
 4:quarto1
-Parece o quarto das visitas. Apenas uma cama e um armário fazem parte do quarto. Há uma janela enorme, onde o sol ilumina bem o local.
-Você pode ir para direita, para frente ou para trás.
-frente 1;atras 9;direita 6;
-5:salão de festa
-O salão de festa é o maior cômodo da casa. Porém não tem festa ali há muito tempo. Provavelmente devido a falta de energia neste salão.
-Você pode ir para direita, esquerda, para frente ou para trás
+Parece o quarto das visitas. Apenas uma cama e um armario fazem parte do quarto. Ha uma janela enorme, onde o sol ilumina bem o local.
+Voce pode ir para: direita, frente, atras.
+frente 1;atras 9;direita 6
+5:salao de festa
+O salao de festa e o maior comodo da casa. Porem nao tem festa ali ha muito tempo. Provavelmente devido a falta de energia neste salao.
+Voce pode ir para:  direita, esquerda, frente, atras.
 frente 6;atras 8;direita 3;esquerda 4
 6:quarto2
-Este é o quarto principal. As janelas estão fechadas. As luzes apagadas. Não há nada de muito interessante neste quarto.
-Você pode ir para esquerda, para frente ou para trás.
+Este e o quarto principal. As janelas estao fechadas. As luzes apagadas. Nao ha nada de muito interessante neste quarto.
+Voce pode ir para: esquerda, frente, atras.
 frente 2;atras 6;esquerda 4
 7:lavanderia
-A lavanderia é muito bem iluminada. O sol ilumina e esquenta o local para que as roupas se sequem. Luz e energia não falta nessa parte da casa.
-Você pode ir para direita, esquerda, para frente ou para trás.
+A lavanderia e muito bem iluminada. O sol ilumina e esquenta o local para que as roupas se sequem. Luz e energia nao falta nessa parte da casa.
+Voce pode ir para:  direita, esquerda, frente, atras.
 frente 9;atras 10;direita 3;esquerda 8
 8:dispensa
-A dispensa apesar de ficar em um local não muito agradável, aparenta ser um local arejado e relativamente bem iluminado.
-Você pode ir para direita, esquerda ou para frente.
+A dispensa apesar de ficar em um local nao muito agradavel, aparenta ser um local arejado e relativamente bem iluminado.
+Voce pode ir para:  direita, esquerda,frente.
 frente 7;direita 2;esquerda 3
-9:salão de jogos
-Luz não falta nesse salão de jogos. Vários eletrônicos e luzes piscando enfeitam o local.
-Você pode ir para direita, esquerda, para frente ou para trás. 
+9:salao de jogos
+Luz nao falta nesse salao de jogos. Varios eletronicos e luzes piscando enfeitam o local.
+Voce pode ir para: direita, esquerda, frente, atras. 
 frente 10;atras 8;direita 4;esquerda 6
 10:sala de estar
-Essa sala é até difícil de ficar. O que faltou de luz para o resto da mansão, compensa na sala de estar. 
-Você pode ir para direita ou esquerda.
+Essa sala e ate difícil de ficar. O que faltou de luz para o resto da mansao, compensa na sala de estar. 
+Voce pode ir para: direita ou esquerda.
 direita 1;esquerda 11

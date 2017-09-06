@@ -19,24 +19,57 @@ namespace jogoC
             this.map =  new Dictionary<Sala, List<Opcao>>();
         }
 
-        public void Preenche(Jogo jogo, Sala sala)
+        public void Preenche(Jogo jogo, Sala sala, List<Opcao> adj)
         {
+            Sala s = Jogo.GetKey(jogo, sala.Id);
+            s.Nome = sala.Nome;
+            s.Descricao = sala.Descricao;
+            s.Opcoes = sala.Opcoes;
+            foreach(Opcao o in adj)
+            {
+                Sala destino = Jogo.GetKey(jogo, o.Destino.Id);
+                if (destino==null)
+                {
+                    
+                    jogo.InsereAdjascencia(jogo, s, o);
+                }
+                else
+                {
+                    Opcao aux = new Opcao(o.Nome, destino);
+                    jogo.InsereAdjascencia(jogo, s, aux);
+                }
+
+            }
+            
+
+            
+        }
+
+        public static Sala GetKey(Jogo jogo, int id)
+        {
+            Sala sala = null;
             foreach (KeyValuePair<Sala, List<Opcao>> par in jogo.map)
             {
-                if (sala.Id.Equals(par.Key.Id))
+                if (id.Equals(par.Key.Id))
                 {
-                    par.Key.Nome = sala.Nome;
-                    par.Key.Descricao = sala.Descricao;
-                    par.Key.Opcoes = sala.Opcoes;
+                    sala = par.Key;
                 }
             }
+            return sala;
         }
+        
 
         public void Imprime(Jogo jogo)
         {
             foreach (KeyValuePair<Sala, List<Opcao>> par in jogo.map)
             {
-                Console.WriteLine(par.Key.Id + ": " + par.Key.Nome+ "\n " + par.Key.Descricao+"\n"+par.Key.Opcoes+"\n");
+                //Console.WriteLine(par.Key.Id + ": " + par.Key.Nome+ "\n " + par.Key.Descricao+"\n"+par.Key.Opcoes+"\n");
+                Console.Write("\n" +par.Key.Id + ": ");
+
+                foreach(Opcao o in par.Value)
+                {
+                    Console.Write(o.Nome + "  " + o.Destino.Id + "; ");
+                }
             }
         }
 
@@ -44,6 +77,11 @@ namespace jogoC
         {
             List<Opcao> opcoes = new List<Opcao>();
             jogo.map.Add(sala, opcoes);
+        }
+
+        public void InsereAdjascencia(Jogo jogo, Sala origem, Opcao opcao)
+        {
+            jogo.map[origem].Add(opcao);
         }
 
         public Dictionary<Sala, List<Opcao>> Map

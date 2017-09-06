@@ -13,6 +13,11 @@ namespace jogoC
         String descricao;
         String opcoes;
 
+        public void ImprimirSala()
+        {
+            Console.WriteLine("\n   "+this.nome.ToUpper() + "\n " + this.descricao + "\n  " + this.opcoes);
+        }
+
         public int Id
         {
             get { return id; }
