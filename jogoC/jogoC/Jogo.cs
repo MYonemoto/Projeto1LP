@@ -20,6 +20,8 @@ namespace jogoC
             this.map =  new Dictionary<Sala, List<Opcao>>();
         }
 
+
+        //funcao que preenche o hashmap com suas keys e values
         public void Preenche(Jogo jogo, Sala sala, List<Opcao> adj)
         {
             Sala s = Jogo.GetKey(jogo, sala.Id);
@@ -45,6 +47,8 @@ namespace jogoC
 
             
         }
+
+        //funcao que recebe um id como parametro e retorna a key correspondende do hashmap
 
         public static Sala GetKey(Jogo jogo, int id)
         {

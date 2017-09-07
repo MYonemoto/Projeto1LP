@@ -1,10 +1,10 @@
 THE DARK MANSION
 Voce esta em uma mansao. Um cheiro estranho paira pelo ar, parece ser venenoso. Para sair vivo, basta encontrar a saida da mansao. Voce tem 8 chances para sair. A luz te guiara.
-12
+13
 1:salao principal
 O salao principal e mais longo do que largo. Ha casacos pendurados ao longo da parede. Todas as cortinas das janelas estao bem fechadas. Nao se pode enxergar nada alem das portas.
 Voce pode ir para:  direita, esquerda, frente, atras.
-frente 3;atras 7;direita 4;esquerda 2
+frente 3;atras 7;direita 4;esquerda 11
 2:cozinha
 A cozinha e quadrada. Uma geladeira e um microondas ficam lado a lado. Voce pode ve uma panela suja sobre a pia. A escuridao ainda e grande, cuidado onde pisa.
 Voce pode ir para:  esquerda, frente, atras.
@@ -24,7 +24,7 @@ frente 6;atras 8;direita 3;esquerda 4
 6:quarto2
 Este e o quarto principal. As janelas estao fechadas. As luzes apagadas. Nao ha nada de muito interessante neste quarto.
 Voce pode ir para: esquerda, frente, atras.
-frente 2;atras 6;esquerda 4
+frente 2;atras 4;esquerda 3
 7:lavanderia
 A lavanderia e muito bem iluminada. O sol ilumina e esquenta o local para que as roupas se sequem. Luz e energia nao falta nessa parte da casa.
 Voce pode ir para:  direita, esquerda, frente, atras.
@@ -38,14 +38,18 @@ Luz nao falta nesse salao de jogos. Varios eletronicos e luzes piscando enfeitam
 Voce pode ir para: direita, esquerda, frente, atras. 
 frente 10;atras 8;direita 4;esquerda 6
 10:sala de estar
-Essa sala e ate difícil de ficar. O que faltou de luz para o resto da mansao, compensa na sala de estar. 
+Essa sala e ate dificil de ficar. O que faltou de luz para o resto da mansao, compensa na sala de estar. 
 Voce pode ir para: direita ou esquerda.
 direita 1;esquerda 11
-11:saida
+11:salao de teste
+Luz nao falta nesse salao de jogos. Varios eletronicos e luzes piscando enfeitam o local.
+Voce pode ir para: direita, esquerda, frente, atras. 
+frente 10;atras 8;direita 4;esquerda 6
+12:saida
 Parabens, voce conseguiu escapar com vida!
 recomecar, sair.
 recomecar 1;sair 11
-12:morreu
+13:morreu
 Voce nao conseguiu escapar a tempo.
 recomecar, sair.
 recomecar 1;sair 11

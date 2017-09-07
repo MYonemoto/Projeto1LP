@@ -15,18 +15,22 @@ namespace jogoC
             
             String[] lines = System.IO.File.ReadAllLines(@"C:\Users\Mateu\source\repos\Projeto1LP\Narrativa.txt");
             int indice = 0;
-            string nome = lines[indice++];
-            string desc = lines[indice++];
+            string nome = lines[indice++];    // nome do jogo
+            string desc = lines[indice++];    // descricao inical do jogo
             Jogo jogo = new Jogo(nome, desc);
             
 
-            string tama = lines[indice++];
+            string tama = lines[indice++];    //numero de salas 
             jogo.Tam = Convert.ToInt32(tama);
+
+            // criando as salas apenas com os IDs  e adicionando keys no hashmap  
             for(int i = 1; i < jogo.Tam+1; i++)
             {
                 Sala sala = new Sala(i);
                 jogo.InsereSala(jogo, sala);
             }
+
+            //preenchendo as salas com descricao e opcoes  e inserindo no hashmap os values nas suas keys
             while (indice<lines.Length)
             {
                
